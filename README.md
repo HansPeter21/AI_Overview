@@ -51,6 +51,14 @@ The goal of this projekt is to learn a lot of interesting things and have fun. ð
 <!-- MEMES -->
 ## Overview
 
+<br />
+<div align="center">
+    <a href="https://github.com/HansPeter21/Praktikum?tab=readme-ov-file">
+    <img src="images/Overview.png" alt="Logo" width="2200" height="1000">
+  </a>
+  </p>
+</div>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
