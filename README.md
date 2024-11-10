@@ -72,7 +72,7 @@ The goal of this projekt is to learn a lot of interesting things and have fun. �
 
 - [ ] Machine Learning Principles ⚙️
     - [ ] Supervised Learning 📊
-        - [ ] Classification: Decision Trees, k-Nearest Neighbors
+        - [x] Classification: Decision Trees, k-Nearest Neighbors
         - [x] Regression: Linear Regression, SVMs
     - [ ] Unsupervised Learning 🧩
         - [ ] Clustering: k-means, Hierarchical Clustering
