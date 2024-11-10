@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="mean concave points <= 0.049\nsamples = 426\nvalue = [159, 267]\nclass = beignn", fillcolor="#afd7f4"] ;
+1 [label="worst area <= 952.9\nsamples = 260\nvalue = [13, 247]\nclass = beignn", fillcolor="#43a2e6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="area error <= 42.19\nsamples = 252\nvalue = [7, 245]\nclass = beignn", fillcolor="#3fa0e6"] ;
+1 -> 2 ;
+3 [label="samples = 247\nvalue = [4, 243]\nclass = beignn", fillcolor="#3c9fe5"] ;
+2 -> 3 ;
+4 [label="samples = 5\nvalue = [3, 2]\nclass = malignant", fillcolor="#f6d5bd"] ;
+2 -> 4 ;
+5 [label="worst fractal dimension <= 0.065\nsamples = 8\nvalue = [6, 2]\nclass = malignant", fillcolor="#eeab7b"] ;
+1 -> 5 ;
+6 [label="samples = 2\nvalue = [0, 2]\nclass = beignn", fillcolor="#399de5"] ;
+5 -> 6 ;
+7 [label="samples = 6\nvalue = [6, 0]\nclass = malignant", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="worst area <= 785.8\nsamples = 166\nvalue = [146, 20]\nclass = malignant", fillcolor="#e99254"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="worst texture <= 23.74\nsamples = 30\nvalue = [13, 17]\nclass = beignn", fillcolor="#d0e8f9"] ;
+8 -> 9 ;
+10 [label="samples = 14\nvalue = [0, 14]\nclass = beignn", fillcolor="#399de5"] ;
+9 -> 10 ;
+11 [label="samples = 16\nvalue = [13, 3]\nclass = malignant", fillcolor="#eb9e67"] ;
+9 -> 11 ;
+12 [label="perimeter error <= 1.397\nsamples = 136\nvalue = [133, 3]\nclass = malignant", fillcolor="#e6843d"] ;
+8 -> 12 ;
+13 [label="samples = 2\nvalue = [0, 2]\nclass = beignn", fillcolor="#399de5"] ;
+12 -> 13 ;
+14 [label="samples = 134\nvalue = [133, 1]\nclass = malignant", fillcolor="#e5823a"] ;
+12 -> 14 ;
+}
